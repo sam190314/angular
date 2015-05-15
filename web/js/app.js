@@ -30,3 +30,19 @@ httpRequest.onreadystatechange = function() {
 
 httpRequest.open("GET", "https://api.github.com/users/octocat", true);
 httpRequest.send();
+
+var myArray = [123, "testing", function() {
+    console.log("This function is part of array.");
+}];
+
+console.log("myArray[0]: " + myArray[0]);
+
+myArray[2]();
+
+var simpleFunction = function(param1) {
+    var message = "Message from simple function";
+
+    console.log(message);
+};
+
+console.log(simpleFunction.toString());

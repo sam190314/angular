@@ -16,15 +16,17 @@
 
             <div id="content">
                 <div id="panel-div">
-                    <input type="button" id="button1" name="Button 1" value="Button 1" />
-                    <input type="button" id="button2" name="Button 2" value="Button 2" />
-
                     <div id="panel1">
-                        Panel 1
+                        <form id="panel1-form" id="panel1-form">
+                            <div>Username: <input type="text" id="username" name="username" /></div>
+                            <div>Password: <input type="password" id="password" name="password" /></div>
+                            <div><input type="button" id="button1" name="button1" value="Submit" /></div>
+                        </form>
                     </div>
 
                     <div id="panel2">
-                        Panel 2
+                        <div id="panel2-content"></div>
+                        <input type="button" id="button2" name="button2" value="User Details Form" />
                     </div>
                 </div>
             </div>
